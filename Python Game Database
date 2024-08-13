@@ -1,0 +1,79 @@
+question_bank = [
+    {"question": "What is the difference between an int and a float?","answer":"A"},
+    {"question": "How do you assign a value to a variable in Python?","answer":"B"},
+    {"question": "What is the output of `print(5 + 2.5)`?","answer":"C" },
+    {"question": "What is `10 % 3`?","answer":"A"},
+    {"question": "How do you perform integer division?","answer":"A"},
+    {"question": "What does `==` check in Python?","answer":"A"},
+    {"question": "How do you create a list?","answer":"A"},
+    {"question": "How to access the third element of `my_list`?","answer":"A"},
+    {"question": "What method adds an element to a list?","answer":"A"},
+    {"question": "How is a tuple different from a list?","answer":"A"},
+    {"question": "How to access the first element of a tuple?","answer":"A"},
+    {"question": "Can you modify a tuple?","answer":"A"},
+    {"question": "How to create a dictionary?","answer":"A"},
+    {"question": "How to retrieve a value from a dictionary?","answer":"A"},
+    {"question": "What method adds a key-value pair to a dictionary?","answer":"A"},
+    {"question": "How do you create a set?","answer":"A"},
+    {"question": "How to find the intersection of two sets?","answer":"A"},
+    {"question": "How do sets handle duplicates?","answer":"A"},
+    {"question": "What is inheritance?","answer":"A"},
+    {"question": "How to define a subclass?","answer":"A"},
+    {"question": "What does `super()` do?","answer":"A"},
+    {"question": "What is a function and how to define one?","answer":"A"},
+    {"question": "How to handle exceptions?","answer":"A"},
+    {"question": "What does `len()` do?","answer":"A"},
+    {"question": "How to convert a string to an integer?","answer":"A"},
+    {"question": "How to check if a key exists in a dictionary?","answer":"A"},
+    {"question": "What method removes a key-value pair from a dictionary?","answer":"A"},
+    {"question": "How to concatenate two strings?","answer":"A"},
+    {"question": "What does `range()` do?","answer":"A"},
+    {"question": "How to access the last element of a list?","answer":"A"},
+    {"question": "How to sort a list?","answer":"A"},
+    {"question": "What does `strip()` do for strings?","answer":"C"},
+    {"question": "How to find the type of a variable?","answer":"A"}
+]
+
+options=[["A: Int is whole numbers, float is decimal numbers.", "B: Int is decimal numbers, float is whole numbers.", "C: Int is a float, and float is an int.", "D: There is no difference."]
+           , ["A: Use `==` operator.", "B: Use `=` operator.", "C: Use `:` operator.", "D: Use `:=` operator."]
+          ,["A: 5.0", "B: 5.0", "C: 7.5", "D: Error"]
+           ,["A: 1", "B: 3", "C: 10", "D: 0"]
+          ,["A: Use `//` operator.", "B: Use `/` operator.", "C: Use `%` operator.", "D: Use `**` operator."]
+          ,  ["A: Value equality", "B: Identity", "C: Type", "D: Length"]
+          ,  ["A: Use square brackets.", "B: Use parentheses.", "C: Use curly braces.", "D: Use `list()` function."]
+          ,  ["A: Use `my_list[2]`.", "B: Use `my_list[3]`.", "C: Use `my_list[1]`.", "D: Use `my_list.get(2)`."]
+          , ["A: Use `append()` method.", "B: Use `insert()` method.", "C: Use `extend()` method.", "D: Use `add()` method."]
+          , ["A: Tuple is immutable, list is mutable.", "B: Tuple is mutable, list is immutable.", "C: They are the same.", "D: Tuple is for numbers, list is for strings."]
+          ,  ["A: Use `my_tuple[0]`.", "B: Use `my_tuple[1]`.", "C: Use `my_tuple.get(0)`.", "D: Use `my_tuple.first()`."]
+          , ["A: No, tuples are immutable.", "B: Yes, tuples are mutable.", "C: Only if converted to list.", "D: Only with `modify()` method."]
+          ,  ["A: Use curly braces.", "B: Use square brackets.", "C: Use parentheses.", "D: Use `dict()` function."]
+          , ["A: Use `my_dict[key]`.", "B: Use `my_dict.get(key)`.", "C: Use `my_dict.fetch(key)`.", "D: Use `my_dict.value(key)`."]
+          , ["A: Use `my_dict[key] = value`.", "B: Use `my_dict.add(key, value)`.", "C: Use `my_dict.insert(key, value)`.", "D: Use `my_dict.update(key=value)`."]
+          , ["A: Use curly braces.", "B: Use square brackets.", "C: Use parentheses.", "D: Use `set()` function."]
+          , ["A: Use `&` operator.", "B: Use `|` operator.", "C: Use `-` operator.", "D: Use `^` operator."]
+          ,  ["A: Remove duplicates.", "B: Keep all duplicates.", "C: Duplicates allowed with conversion.", "D: Duplicates not allowed."]
+          , ["A: Allows a class to inherit from another class.", "B: Allows a function to inherit from another function.", "C: Allows a module to inherit from another module.", "D: A type of data structure."]
+          ,  ["A: Use `class Subclass(Superclass):`.", "B: Use `class Subclass inherit Superclass:`.", "C: Use `class Subclass extends Superclass:`.", "D: Use `class Subclass base Superclass:`."]
+          ,  ["A: Calls methods from the parent class.", "B: Defines a superclass.", "C: Creates a new class instance.", "D: Replaces a subclass method."]
+          ,  ["A: Reusable block of code, `def func(parameters):`.", "B: Built-in module, `module.func(parameters)`.", "C: Variable, `var = value`.", "D: Class method, `class func(parameters):`."]
+          , ["A: Use `try` and `except`.", "B: Use `catch`.", "C: Use `finally`.", "D: Use `error`."]
+          
+          , ["A: Returns number of items in an object.", "B: Returns the length of a string.", "C: Returns the type of an object.", "D: Returns a new object."]
+          , ["A: Use `int()`.", "B: Use `str()`.", "C: Use `float()`.", "D: Use `convert()`."]
+          ,  ["A: Use `key in my_dict`.", "B: Use `my_dict.contains(key)`.", "C: Use `key.exists(my_dict)`.", "D: Use `my_dict.has(key)`."]
+          ,["A: Use `pop()` method.", "B: Use `remove()` method.", "C: Use `delete()` method.", "D: Use `discard()` method."]
+          , ["A: Use `+` operator.", "B: Use `append()` method.", "C: Use `extend()` method.", "D: Use `combine()` method."]
+          ,["A: Generates a sequence of numbers.", "B: Defines a list.", "C: Creates a string.", "D: Sorts a list."]
+          ,  ["A: Use negative indexing, e.g., `my_list[-1]`.", "B: Use positive indexing, e.g., `my_list[len(my_list) - 1]`.", "C: Use `last()` method.", "D: Use `get_last()` method."]
+          , ["A: Use `sort()` method or `sorted()` function.", "B: Use `order()` method.", "C: Use `arrange()` method.", "D: Use `sequence()` function."]
+          ,  ["A: Converts to uppercase", "B: Removes whitespace from the middle.", "C: Removes whitespace from the beginning and end.", "D: Converts to lowercase."]
+          ,["A:using type() function ","B:  using sort function","C:using keyword","D:Using loop"]
+]
+
+
+
+
+
+
+
+    
