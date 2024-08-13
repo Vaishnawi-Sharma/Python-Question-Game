@@ -1,0 +1,49 @@
+from Question_Game_logo import logo 
+import Question_game_datbase as qb
+
+print(logo)
+def validation():
+    if chosen_option== qb.question_bank[i]["answer"]:
+        return True 
+    else :
+        return False
+
+    
+score=0
+for i in range(len(qb.question_bank)):
+    print("\n\n************************************************************************************")
+    print(qb.question_bank[i]["question"])
+    for j in (qb.options[i]):   
+        print(j)    
+    chosen_option=input("Choose the Correct option as A/B/C/D : ").upper()
+    validity=validation()
+
+    if validity ==True :
+        score+=1
+        print ("Correct Answer ")
+
+        print(f"Your score is {score}/{i+1}")
+        
+    else :
+        print("Incorrect Answer ")   
+        print(f"The correct amswer is {qb.question_bank[i]["answer"]}") 
+        print(f"Your score is {score}/{i+1}")
+        press=input("Press 'Y if you want to play it more or press'N' for exit :").upper()
+        if press=="Y":
+            pass
+        elif press=="N" :
+            print(f" Your Percentage is {(score/(i+1))*100}%......")
+            exit() 
+        else :
+            print("You have entered a wrong Character :")    
+
+
+
+
+        
+        
+       
+
+
+
+        
